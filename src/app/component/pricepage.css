@@ -1,0 +1,30 @@
+.price_table{
+    padding: 12px 12px 60px 12px;
+  }
+  .price_table table{
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .price_table th{
+    padding: 10px 1px 10px 1px;
+    text-align: center;
+    border-bottom: 1px solid var(--text-light);
+    border-top: 1px solid var(--text-light);
+    color: var(--background);
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .price_table td{
+    padding: 10px 1px 10px 1px;
+    text-align: center;
+    border-bottom: 1px solid var(--text-light);
+    color: var(--background);
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .price_table td.head_table {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--primary-color-dark);
+    padding: 10px 1px 10px 1px;
+  }

@@ -1,0 +1,148 @@
+.service_section{
+    background-color: var(--secondary-color-dark);
+  }
+  .service_h1 {
+    display: flex;
+    justify-content: center;
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .service_h1 h1 {
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: center;
+    width: 700px;
+  }
+  .service_scroll {
+    color: var(--primary-color);
+    font-weight: 800;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0 2rem 0;
+  }
+  .service_scroll:hover{
+    transform: scaleX(2, 3);
+    transform: rotateX(90deg);
+    color: var(--secondary-color);
+  }
+  .service_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  .service_btn1 {
+    width: 120px;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    background-color: var(--primary-color-dark);
+    color: var(--white);
+    border: var(--secondary-color-dark);
+  }
+  .service_btn1:hover{
+    background-color: var(--background);
+    color: var(--secondary-color-dark);
+  }
+  .service_btn2 {
+    width: 100px;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    background-color: var(--secondary-color-dark);
+    color: var(--white);
+    border: none;
+  }
+  .service_btn2:hover{
+    background-color: var(--background);
+    transform: skewX(10deg);
+    color: var(--secondary-color-dark);
+  }
+  .service_4containers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2px;
+    padding: 3rem;
+  }
+  .service_container {
+    width: 270px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--white);
+    padding: 1rem;
+  }
+  .service_container img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    margin: 1rem 1rem 2rem 1rem;
+  }
+  .service_text {
+    color: var(--white);
+    text-align: center;
+  }
+  .service_text h1 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .service_text p {
+    font-size: 13px;
+    font-weight: 300;
+    text-align: center;
+    margin: 3px 5px 8px 3px;
+  }
+  .service_btn_text {
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 200;
+    text-transform: uppercase;
+    background-color: var(--primary-color-dark);
+    color: var(--white);
+    border: var(--secondary-color-dark);
+  }
+  .service_advantages{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+  .service_img_content{
+    width: 600px;
+    height: 750px;
+    padding: 3rem 0rem 2rem 6rem;
+  }
+  .service_img_content img{
+    width: 450px;
+    height: 450px;
+    border-radius: 9px;
+  }
+  .service_img_content p{
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 3px 2px 3px 2px;
+    background-color: var(--primary-color);
+    text-align: center;
+  }
+  .service_content{
+    padding: 3rem 6rem 2rem 0rem;
+    width: 660px;
+    height: 750px;
+    color: var(--white);
+  }

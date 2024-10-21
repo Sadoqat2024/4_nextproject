@@ -1,6 +1,6 @@
 'use client'
 
-import React, {useState} from "react";
+import React from "react";
 import Link from "next/link";
 import { FaCarOn } from "react-icons/fa6";
 import { CiMenuFries } from "react-icons/ci";
@@ -8,11 +8,9 @@ import { PiDotOutlineFill } from "react-icons/pi";
 
 
 const Home = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  
 
-  const toggleMenu = () =>{
-    setIsOpen(!isOpen)
-  }
+ 
   return (
     <main>
       <header className="header">
@@ -23,13 +21,9 @@ const Home = () => {
                 <FaCarOn />
               </Link>
             </div>
-            <div className="burger" onClick={toggleMenu}>
-              <div className="isOpen ? line1Open : line"></div>
-              <div className="isOpen ? line2Open : line"></div>
-              <div className="isOpen ? line3Open : line"></div>
-            </div>
+           
 
-            <ul className="isOpen ? `${nav_links} ${open}` :nav_links" id="nav_links">
+            <ul className="nav_links" id="nav_links">
               <li>
                 <Link href="/home">HOME</Link>
               </li>
